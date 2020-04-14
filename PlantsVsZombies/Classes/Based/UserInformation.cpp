@@ -7,7 +7,7 @@
 
 #include "UserInformation.h"
 
-const string UserInformation::_clientEdition = "100.0.0.0";
+const string UserInformation::_clientEdition = "9.0.0.0";
 string UserInformation::_editionName = "";
 bool UserInformation::_updateRequired = false;
 
