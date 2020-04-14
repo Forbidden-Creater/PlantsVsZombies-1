@@ -7,13 +7,13 @@
 
 #include "UserInformation.h"
 
-const string UserInformation::_clientEdition = "0.0.0.0";
+const string UserInformation::_clientEdition = "100.0.0.0";
 string UserInformation::_editionName = "";
 bool UserInformation::_updateRequired = false;
 
 UserInformation::UserInformation():
   _isUpdate(false)
-, _userName("��ŭ��С��ʬ")
+, _userName("·ßÅ­µÄÐ¡½©Ê¬")
 , _userCaveFileNameKey{ "USERNAMEDATA","USERNAMEDATA_2","USERNAMEDATA_3","USERNAMEDATA_4","USERNAMEDATA_5","USERNAMEDATA_6","USERNAMEDATA_7","USERNAMEDATA_8" }
 , _systemCaveFileName_difficult{ "WORLD_1_LEVELS","WORLD_1_LEVELS_2","WORLD_1_LEVELS_3","WORLD_1_LEVELS_4","WORLD_1_LEVELS_5","WORLD_1_LEVELS_6","WORLD_1_LEVELS_7","WORLD_1_LEVELS_8" }
 , _systemCaveFileName{ "WORLD_1_LEVELS_DIF","WORLD_1_LEVELS_2_DIF","WORLD_1_LEVELS_3_DIF","WORLD_1_LEVELS_4_DIF","WORLD_1_LEVELS_5_DIF","WORLD_1_LEVELS_6_DIF","WORLD_1_LEVELS_7_DIF","WORLD_1_LEVELS_8_DIF" }
